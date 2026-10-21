@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rhea's Rolls | Hand-Rolled Filipino Lumpia in Massachusetts</title>
+  <meta name="description" content="Rhea's Rolls hand-rolls authentic Filipino lumpia in Massachusetts. Find us at night markets, order by the dozen, or book lumpia catering for your next party.">
+  <meta name="theme-color" content="#16402F">
+  <!-- TODO: swap in the real domain once it's bought -->
+  <link rel="canonical" href="https://rheasrolls.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rhea's Rolls">
+  <meta property="og:title" content="Rhea's Rolls | Hand-Rolled Filipino Lumpia">
+  <meta property="og:description" content="9,000+ lumpia hand-rolled and served across Massachusetts. Order by the dozen or book us for catering.">
+  <meta property="og:url" content="https://rheasrolls.com/">
+  <meta property="og:image" content="https://rheasrolls.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Rhea's Rolls",
+    "description": "Hand-rolled, authentic Filipino lumpia. Night markets, orders by the dozen, and catering across Massachusetts.",
+    "url": "https://rheasrolls.com/",
+    "email": "rheasrolls@gmail.com",
+    "founder": { "@type": "Person", "name": "Christian" },
+    "servesCuisine": ["Filipino", "Lumpia"],
+    "areaServed": { "@type": "State", "name": "Massachusetts" },
+    "sameAs": ["https://www.instagram.com/rheas_rolls", "https://linktr.ee/rheasrolls"],
+    "hasMenu": "https://rheasrolls.com/#menu"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html" aria-label="Rhea's Rolls home">Rhea's Rolls</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="story.html">Our story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#markets">Markets</a></li>
+          <li><a href="#catering">Catering</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-gold" href="https://ig.me/m/rheas_rolls" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>
+        <span>Order now</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title" style="padding:0">
+      <div class="wrap hero-grid">
+        <div>
+          <h1 id="hero-title"><span class="line">Hand-rolled.</span><span class="line">Fried golden.</span></h1>
+          <p class="hero-lede">Authentic Filipino lumpia, rolled one at a time and served across Massachusetts. Catch us at a night market or order a few dozen for home.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-gold" href="https://ig.me/m/rheas_rolls" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>
+              Order on Instagram
+            </a>
+            <a class="btn btn-line" href="#menu">See the menu</a>
+          </div>
+          <p class="tally"><strong>9,000+</strong> lumpia rolled by hand so far</p>
+        </div>
+
+        <div class="plate-stage" aria-hidden="true">
+          <div class="mat banig"></div>
+          <div class="plate"></div>
+          <div class="roll r1"></div>
+          <div class="roll r4"></div>
+          <div class="roll r2"></div>
+          <div class="roll r3"></div>
+          <div class="sauce"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="banig banig-band" role="presentation"></div>
+
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="menu-title">The rolls</h2>
+          <p>Sold by the dozen and fried fresh. Tap any roll to learn what's inside, where it comes from, and what to dip it in.</p>
+        </div>
+
+        <!-- TODO: confirm varieties + add prices with Christian -->
+        <ul class="menu-list four">
+          <li>
+            <button class="dish" type="button" data-dish="shanghai" aria-haspopup="dialog">
+              <span class="dish-art" aria-hidden="true"><span class="roll" style="--tilt:-8deg"></span></span>
+              <h3>Classic pork</h3>
+              <p class="native">Lumpiang Shanghai</p>
+              <p>Thin, crackly, and packed with seasoned pork. The one everyone fights over.</p>
+              <span class="more"><span class="tag">Fan favorite</span><span class="learn">Learn more<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></span>
+            </button>
+          </li>
+          <li>
+            <button class="dish" type="button" data-dish="gulay" aria-haspopup="dialog">
+              <span class="dish-art" aria-hidden="true"><span class="roll" style="--tilt:6deg;height:46px"></span></span>
+              <h3>Veggie</h3>
+              <p class="native">Lumpiang Gulay</p>
+              <p>A heartier roll stuffed with sautéed vegetables. Just as crispy, totally meat-free.</p>
+              <span class="more"><span class="tag">Vegetarian</span><span class="learn">Learn more<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></span>
+            </button>
+          </li>
+          <li>
+            <button class="dish" type="button" data-dish="turon" aria-haspopup="dialog">
+              <span class="dish-art" aria-hidden="true"><span class="roll sweet" style="--tilt:-4deg;height:44px;width:70%"></span></span>
+              <h3>Banana sweet roll</h3>
+              <p class="native">Turon</p>
+              <p>Saba banana wrapped and fried in a crackly caramelized sugar coat.</p>
+              <span class="more"><span class="tag">Dessert</span><span class="learn">Learn more<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></span>
+            </button>
+          </li>
+          <li>
+            <button class="dish" type="button" data-dish="sauces" aria-haspopup="dialog">
+              <span class="dish-art" aria-hidden="true"><span class="bowls"><span class="bowl"></span><span class="bowl vinegar"></span></span></span>
+              <h3>Dipping sauces</h3>
+              <p class="native">Sawsawan</p>
+              <p>Sweet chili or garlic vinegar. Every order comes with one.</p>
+              <span class="more"><span class="tag">Included</span><span class="learn">Learn more<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span></span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="menu-note">
+          <p>Want a mix for a party? We'll build a tray for your crowd.</p>
+          <a class="btn btn-gold" href="#catering">Plan a tray</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="teaser" aria-labelledby="teaser-title">
+      <div class="wrap teaser-grid">
+        <div class="teaser-art banig" aria-hidden="true">
+          <div class="card">
+            <p>“Every roll I make, I'm making the way my mom taught me.”</p>
+            <cite>Christian, founder</cite>
+          </div>
+        </div>
+        <div>
+          <h2 id="teaser-title">A mother's recipe, carried forward.</h2>
+          <p>Rhea's Rolls is Christian's way of keeping his mom's kitchen alive: the same wrappers, the same filling, the same care, now shared with a whole community.</p>
+          <a class="btn" href="story.html">Read our story</a>
+          <div class="values-row">
+            <div class="value"><h3>Hand-rolled</h3><p>Every single one, by hand.</p></div>
+            <div class="value"><h3>Authentic</h3><p>Family recipes, no shortcuts.</p></div>
+            <div class="value"><h3>Fried fresh</h3><p>Crispy, golden, and hot.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps" id="order" aria-labelledby="order-title" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="order-title" style="color:var(--leaf)">How to order</h2>
+          <p>No app, no checkout. Just message us and we'll take it from there.</p>
+        </div>
+        <ol class="order-steps">
+          <li><h3>Send a DM</h3><p>Message <a href="https://ig.me/m/rheas_rolls" target="_blank" rel="noopener">@rheas_rolls</a> on Instagram or email us.</p></li>
+          <li><h3>Pick your rolls</h3><p>Tell us which kinds, how many dozen, and when you need them.</p></li>
+          <li><h3>Pick up and enjoy</h3><p>We'll confirm a pickup time, or grab them at our next market.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="banig banig-band" role="presentation"></div>
+
+    <section class="markets" id="markets" aria-labelledby="markets-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="markets-title">Find us at the market</h2>
+          <p>Come hungry. We fry them right there, and they go fast.</p>
+        </div>
+        <div id="events" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="catering" id="catering" aria-labelledby="catering-title">
+      <div class="wrap catering-grid">
+        <div class="catering-copy">
+          <h2 id="catering-title">Lumpia for your party</h2>
+          <p>Birthdays, graduations, office lunches, family get-togethers. A tray of fresh lumpia disappears faster than anything else on the table. Tell us about your event and we'll put together the right amount.</p>
+          <ul class="perfect-for" aria-label="Great for">
+            <li>Birthdays</li><li>Graduations</li><li>Office lunches</li><li>Holidays</li><li>Fundraisers</li>
+          </ul>
+        </div>
+
+        <form class="cater" id="cater-form" novalidate>
+          <div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="c-contact">Phone or email</label><input id="c-contact" name="contact" autocomplete="email" required></div>
+          <div class="field"><label for="c-date">Event date</label><input id="c-date" name="date" type="date"></div>
+          <div class="field"><label for="c-guests">Number of guests</label><input id="c-guests" name="guests" type="number" min="1" inputmode="numeric" placeholder="e.g. 40"></div>
+          <div class="estimate" aria-live="polite">
+            <strong id="est-dozen">–</strong>
+            <p id="est-text">Enter your guest count to see how many dozen to plan for.<span>We figure about 3 rolls per guest. Lumpia never last long.</span></p>
+          </div>
+          <div class="field full">
+            <label for="c-type">What kind of event?</label>
+            <select id="c-type" name="type">
+              <option>Birthday</option><option>Graduation</option><option>Office or work event</option><option>Holiday party</option><option>Fundraiser</option><option>Something else</option>
+            </select>
+          </div>
+          <div class="field full"><label for="c-notes">Anything else?</label><textarea id="c-notes" name="notes" placeholder="Which rolls, pickup or drop-off, dietary needs…"></textarea></div>
+          <button class="btn" type="submit">Send catering request</button>
+          <p class="form-hint" id="form-hint">This opens your email app with everything filled in, ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-cta">
+      <h2>Hungry yet? <span>Let's roll.</span></h2>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="https://ig.me/m/rheas_rolls" target="_blank" rel="noopener">Order on Instagram</a>
+        <a class="btn btn-line" href="mailto:rheasrolls@gmail.com">rheasrolls@gmail.com</a>
+      </div>
+    </div>
+    <div class="banig banig-band" role="presentation"></div>
+    <div class="wrap footer-bottom">
+      <p style="margin:0">© <span id="year">2026</span> Rhea's Rolls. Hand-rolled in Massachusetts 🇵🇭</p>
+      <nav aria-label="Footer">
+        <a href="story.html">Our story</a>
+        <a href="https://www.instagram.com/rheas_rolls" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:rheasrolls@gmail.com">Email</a>
+        <span>Site by North Shore Designs</span>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog class="facts" id="facts" aria-labelledby="facts-name">
+    <div class="facts-art banig">
+      <span class="plate-bg"></span>
+      <span class="dish-art" id="facts-art"></span>
+      <button class="facts-close" type="button" id="facts-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="facts-body">
+      <h3 id="facts-name"></h3>
+      <p class="facts-native" id="facts-native"></p>
+      <p class="facts-desc" id="facts-desc"></p>
+      <ul class="pills" id="facts-pills"></ul>
+      <h4>Good to know</h4>
+      <ul class="fact-list" id="facts-list"></ul>
+      <div class="facts-pair"><p id="facts-pair"></p></div>
+      <div class="facts-actions">
+        <a class="btn btn-gold" id="facts-order" href="https://ig.me/m/rheas_rolls" target="_blank" rel="noopener">Order this</a>
+        <a class="btn btn-line" href="#catering" id="facts-cater">Add to a party tray</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    // Menu facts shown when a roll is tapped. TODO: confirm fillings with Christian.
+    const DISHES = {
+      shanghai: {
+        name: "Classic pork",
+        native: "Lumpiang Shanghai",
+        say: "LOOM-pyahng shang-HIGH",
+        desc: "Pencil-thin rolls of seasoned ground pork, carrot, onion, and garlic in a paper-thin wrapper, fried until they crackle.",
+        pills: ["Pork", "Fried to order", "Sold by the dozen"],
+        facts: [
+          "\"Lumpia\" comes from the Hokkien Chinese word for spring roll. Chinese traders brought it to the Philippines centuries ago, and Filipino cooks made it their own.",
+          "Shanghai is the skinny one. Rolling them this thin takes practice, and it's why they're so crispy.",
+          "No Filipino party is complete without a tray of these. They're usually the first thing gone."
+        ],
+        pair: "Best with sweet chili sauce. Reheat in an air fryer at 375°F for 4–5 minutes to bring back the crunch.",
+        art: '<span class="roll" style="--tilt:-8deg"></span>'
+      },
+      gulay: {
+        name: "Veggie",
+        native: "Lumpiang Gulay",
+        say: "LOOM-pyahng goo-LIE",
+        desc: "A thicker roll filled with sautéed vegetables like cabbage, carrot, green beans, and sweet potato, then fried golden.",
+        pills: ["Vegetarian", "Fried to order", "Sold by the dozen"],
+        facts: [
+          "\"Gulay\" means vegetables in Tagalog.",
+          "It's a home-cooking classic in the Philippines, often made with whatever vegetables are fresh that day.",
+          "Bigger and softer inside than Shanghai, with the same crispy shell."
+        ],
+        pair: "Traditionally dipped in garlic vinegar (sukang bawang). Sweet chili works great too.",
+        art: '<span class="roll" style="--tilt:6deg;height:58px"></span>'
+      },
+      turon: {
+        name: "Banana sweet roll",
+        native: "Turon",
+        say: "too-RON",
+        desc: "Ripe saba banana, often with a strip of jackfruit, rolled up and fried in brown sugar until it forms a glassy caramel shell.",
+        pills: ["Dessert", "Vegetarian", "Sweet"],
+        facts: [
+          "Saba is a Filipino cooking banana. It's firmer and less sweet than the bananas at the grocery store, so it holds up when fried.",
+          "In the Philippines, turon is a favorite merienda (afternoon snack) sold by street vendors.",
+          "The caramel shell hardens as it cools, so it stays crunchy."
+        ],
+        pair: "Great on its own, or warm with a scoop of vanilla or ube ice cream.",
+        art: '<span class="roll sweet" style="--tilt:-4deg"></span>'
+      },
+      sauces: {
+        name: "Dipping sauces",
+        native: "Sawsawan",
+        say: "sow-SAH-wahn",
+        desc: "Every order comes with a dipping sauce. Pick sweet chili, garlic vinegar, or both.",
+        pills: ["Included", "Vegan"],
+        facts: [
+          "\"Sawsawan\" is the Filipino word for dipping sauce. In Filipino cooking the sauce is part of the meal, not an afterthought.",
+          "Sweet chili is sticky, sweet, and mildly spicy. It's the classic match for pork lumpia.",
+          "Garlic vinegar (sukang bawang) is sharp and tangy and cuts right through the crunch."
+        ],
+        pair: "Try one roll with each sauce and pick your favorite.",
+        art: '<span class="bowls"><span class="bowl"></span><span class="bowl vinegar"></span></span>'
+      }
+    };
+
+    const dialog = document.getElementById("facts");
+    const $ = (id) => document.getElementById(id);
+
+    function openDish(key) {
+      const d = DISHES[key];
+      if (!d) return;
+      $("facts-name").textContent = d.name;
+      $("facts-native").innerHTML = `${d.native} <span>· say “${d.say}”</span>`;
+      $("facts-desc").textContent = d.desc;
+      $("facts-pills").innerHTML = d.pills.map(p => `<li>${p}</li>`).join("");
+      $("facts-list").innerHTML = d.facts.map(f => `<li>${f}</li>`).join("");
+      $("facts-pair").textContent = d.pair;
+      $("facts-art").innerHTML = d.art;
+      dialog.showModal();
+    }
+
+    document.querySelectorAll("[data-dish]").forEach(btn => btn.addEventListener("click", () => openDish(btn.dataset.dish)));
+    $("facts-close").addEventListener("click", () => dialog.close());
+    $("facts-cater").addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+
+    // Market dates. Add new ones here; past dates move to "Recently" automatically.
+    const MARKETS = [
+      { name: "Central Square Night Market", place: "Central Square, Cambridge", date: "2026-09-19", time: "5–10 PM" },
+    ];
+
+    const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    const toLocalDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+
+    function eventItem(e, past) {
+      const d = toLocalDate(e.date);
+      return `<li class="event${past ? " past" : ""}">
+        <div class="event-date"><span class="m">${MONTHS[d.getMonth()]}</span><span class="d">${d.getDate()}</span></div>
+        <div><h3>${e.name}</h3><p>${e.place}, ${e.time}</p></div>
+        <span class="status">${past ? "Wrapped up" : "Upcoming"}</span>
+      </li>`;
+    }
+
+    (function renderMarkets() {
+      const upcoming = MARKETS.filter(e => toLocalDate(e.date) >= today).sort((a, b) => a.date.localeCompare(b.date));
+      const past = MARKETS.filter(e => toLocalDate(e.date) < today).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+      let html = upcoming.length
+        ? `<ul class="event-list">${upcoming.map(e => eventItem(e, false)).join("")}</ul>`
+        : `<div class="event-empty"><p>New market dates are posted on Instagram first.</p>
+             <a class="btn btn-gold" href="https://www.instagram.com/rheas_rolls" target="_blank" rel="noopener">Follow @rheas_rolls</a></div>`;
+      if (past.length) html += `<p class="past-label">Recently</p><ul class="event-list">${past.map(e => eventItem(e, true)).join("")}</ul>`;
+      $("events").innerHTML = html;
+    })();
+
+    $("year").textContent = new Date().getFullYear();
+
+    // Catering estimate: about 3 rolls per guest, rounded up to the dozen.
+    const ROLLS_PER_GUEST = 3;
+    $("c-guests").addEventListener("input", (e) => {
+      const guests = parseInt(e.target.value, 10);
+      if (!guests || guests < 1) {
+        $("est-dozen").textContent = "–";
+        $("est-text").innerHTML = "Enter your guest count to see how many dozen to plan for.<span>We figure about 3 rolls per guest. Lumpia never last long.</span>";
+        return;
+      }
+      const dozen = Math.ceil((guests * ROLLS_PER_GUEST) / 12);
+      $("est-dozen").textContent = dozen;
+      $("est-text").innerHTML = `dozen rolls for ${guests} guest${guests === 1 ? "" : "s"}<span>That's about ${dozen * 12} lumpia. We'll fine-tune it with you.</span>`;
+    });
+
+    // Catering form: no backend, so compose an email.
+    $("cater-form").addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const f = ev.target;
+      const hint = $("form-hint");
+      if (!f.name.value.trim() || !f.contact.value.trim()) {
+        hint.textContent = "Add your name and a phone number or email so we can get back to you.";
+        hint.style.color = "var(--chili)";
+        (f.name.value.trim() ? f.contact : f.name).focus();
+        return;
+      }
+      const guests = parseInt(f.guests.value, 10);
+      const lines = [
+        `Name: ${f.name.value}`,
+        `Contact: ${f.contact.value}`,
+        `Event: ${f.type.value}`,
+        `Date: ${f.date.value || "Not set yet"}`,
+        `Guests: ${guests || "Not sure yet"}`,
+        guests ? `Estimate: about ${Math.ceil((guests * ROLLS_PER_GUEST) / 12)} dozen` : "",
+        "",
+        f.notes.value,
+      ];
+      const subject = `Catering request: ${f.type.value}${f.date.value ? " on " + f.date.value : ""}`;
+      window.location.href = `mailto:rheasrolls@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
+      hint.style.color = "";
+      hint.textContent = "Your email app should be open now. Hit send and we'll reply soon.";
+    });
+  </script>
+</body>
+</html>
